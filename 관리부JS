@@ -9,6 +9,3 @@ if(window.prompt('액서스 키: 관리자 확인') === 'admin10') {
 else {
     window.alert('액서스 키가 올바르지 않습니다. 새로고침 뒤 다시 시도해 주시기 비랍니다.');
 }
-document.getElementById('reload').onclick = function() {
-    location.reload();
-}
