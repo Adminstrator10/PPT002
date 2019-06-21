@@ -1,0 +1,14 @@
+if(window.prompt('액서스 키: 관리자 확인') === 'admin10') {
+        if(window.confirm('다운로드: 관리부 퀴즈 002')) {
+            location.href('https://srv-file1.gofile.io/download/uvKURY/PPT002.pptx');
+        }
+        else {
+            window.alert('요청이 취소 되었습니다.');
+        }
+}
+else {
+    window.alert('액서스 키가 올바르지 않습니다. 새로고침 뒤 다시 시도해 주시기 비랍니다.');
+}
+document.getElementById('reload').onclick = function() {
+    location.reload();
+}
